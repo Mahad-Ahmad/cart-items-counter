@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+  {/* where we have counter element we will get the output of counter-
+      component. */}
   </React.StrictMode>,
   document.getElementById('root')
 );
